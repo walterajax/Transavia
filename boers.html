@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
+    <title>Transavia</title>
+</head>
+
+
+<body>
+   
+   <section id="progressbar">
+        <section id="progressbarplaatjeholder">
+            <img src="assets/images/rotate30.png">
+        </section>
+    </section>
+    <!-- W3 Schools -->
+    <header>
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+    </header>
+    <!-- einde bron -->
+    
+    <div class="menu">
+        <ul>
+            <a href="index.html">
+                <li>> Home</li>
+            </a>
+            <a> <li><input type=text placeholder="zoeken"></li></a>
+
+            <a href="mijnlijst.html" id="mijnlijstlink">
+                <li>> Mijn lijst</li>
+            </a>
+            <a href="downloads.html">
+                <li>> downloads</li>
+            </a>
+            <a href="login.html">
+                <li>> Inloggen</li>
+            </a>
+        </ul>
+    </div>
+
+
+
+    <header>
+        <nav>
+            <ul>
+                <li></li>
+                <li>
+                    <a href="index.html"><img src="assets/images/transavia-logo.png"></a>
+                </li>
+                <a> <li><input type=text placeholder="zoeken"></li></a>
+                <li><a href="vertrekhal.html" id="mijnlijst">> Mijn lijst</a></li>
+                <li><a href="downloads.html" id="downloadslink">> downloads</a></li>
+                <li><a id="loginlink" href="#">> Inloggen</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <section class="paginatitel">
+        <h1>De verhalen voor onderweg</h1>
+        <h2>99 Verhalen, één essentie.</h2>
+
+    </section>
+
+<main>
+        <aside>
+            
+            <input type="checkbox" class="cb" id="check1" checked>
+            <label for="check1">Later verder lezen</label>
+
+            <h5><a href="#.html" id="leesmaptoevoegen">+ Downloads</a></h5>
+
+                   </aside>
+
+
+        <section>
+
+            <img src="assets/images/lange%20frans%20large-01.png" id="lange-desktop" class="leesmap_image_1">
+            <img src="assets/images/lange%20frans%20tablet-01.png" id="lange-tablet" class="leesmap_image_1">
+            <img src="assets/images/lange%20frans%20mobiel-01.png" id="lange-mobile" class="leesmap_image_1">
+
+        </section>
+        
+            <aside>
+            <h5><a href="#.html" id="leesmaptoevoegen">+ Toevoegen aan downloads</a></h5>
+             </aside>
+
+
+        <footer>
+            <p>
+                Transavia - 99 stijloefeningen opdracht - Walter van Koesveld
+            </p>
+        </footer>
+        
+        
+    <section id="loginoverlay"></section>
+    <section id="loginformulier">
+        <button id="closeloginlink">X</button>
+            <form>
+                <fieldset>
+
+                    <ul>
+
+                        <li><label for="email">Email</label>
+                        <input type="email" required id="email"></li>
+
+                        <li><label for="wachtwoord">Wachtwoord</label>
+                        <input type="password" required id="wachtwoord"></li>
+
+                        <li id="wwvergeten"><a href="#l">Wachtwoord vergeten...</a></li>
+
+                        <li id="geenaccount"><a href="aanmelden.html">Nog geen account?</a></li>
+                    </ul>
+
+                    <input type="checkbox" class="cb" id="check1" checked>
+                    <label for="check1">Ingelogd blijven</label>
+
+                    <input type="submit" value=">  Inloggen" class="submit-login">
+
+            </fieldset>
+        </form>
+    </section>
+
+    </main>
+    
+   
+    <script src="assets/javascript/jquery-3.2.1.min.js"></script>
+    <script src="assets/javascript/jquery-ui.1.12.1.min.js"></script>
+    <script src="assets/javascript/main.js"></script>
+</body>
+
+</html>
